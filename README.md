@@ -1,11 +1,11 @@
-# ⚡ AeroSolar Sentinel: AI Predictive Maintenance & Fleet Intelligence
+# ⚡AI Predictive Maintenance & Fleet Intelligence
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io)
 [![Python 3.12](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![Google Gemini API](https://img.shields.io/badge/AI-Google%20Gemini%20API-4285F4?logo=google&logoColor=white)](https://ai.google.dev/)
 [![HackOut'26](https://img.shields.io/badge/Hackathon-HackOut'26-orange)](#)
 
-> **Live Web App:** [https://aerosolar-sentinel.streamlit.app](https://share.streamlit.io) *(Deployed on Streamlit Community Cloud)*  
+> **Live Web App:** -------------------------- *(Deployed on Streamlit Community Cloud)*  
 > **HackOut'26 Theme:** Renewable Energy Intelligence  
 > **Problem Statement:** Predictive Maintenance for Solar & Wind Assets  
 > **Target Users:** Solar/Wind Farm Operators, Field Technicians, Asset Owners  
@@ -21,7 +21,7 @@ In the renewable energy industry today, operations and maintenance (O&M) remain 
 2. **Costly Manual Inspections**: Routine manual checks across sprawling solar fields and remote wind farms are slow, expensive, and impractical to run frequently.
 3. **Inefficient Technician Dispatch**: Field teams often travel long distances to inspect healthy assets while unnoticed micro-faults quietly worsen elsewhere.
 
-$$\text{Unnoticed Fault} \longrightarrow \text{Equipment Failure} \longrightarrow \text{Generation Loss (kWh)} \longrightarrow \text{Direct Revenue Loss (\rupee)}$$
+$$\text{Unnoticed Fault} \longrightarrow \text{Equipment Failure} \longrightarrow \text{Generation Loss (kWh)} \longrightarrow \text{Direct Revenue Loss}$$
 
 ---
 
@@ -167,5 +167,4 @@ Open `http://localhost:8501` in your web browser.
 
 - **Hackathon:** HackOut'26
 - **Theme:** Renewable Energy Intelligence
-- **Project Name:** AeroSolar Sentinel
 - **Target Audience:** Solar & Wind Farm Operators, Asset Owners, Field Technicians
