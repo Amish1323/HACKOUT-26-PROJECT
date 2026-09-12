@@ -5,7 +5,7 @@
 [![Google Gemini API](https://img.shields.io/badge/AI-Google%20Gemini%20API-4285F4?logo=google&logoColor=white)](https://ai.google.dev/)
 [![HackOut'26](https://img.shields.io/badge/Hackathon-HackOut'26-orange)](#)
 
-> **Live Web App:** [https://aerosolar.streamlit.app](https://share.streamlit.io) *(Deployed on Streamlit Community Cloud)*  
+> **Live Web App:** ----------------------------------------------------- *(Deployed on Streamlit Community Cloud)*  
 > **HackOut'26 Theme:** Renewable Energy Intelligence  
 > **Problem Statement:** Predictive Maintenance for Solar & Wind Assets  
 > **Target Users:** Solar/Wind Farm Operators, Field Technicians, Asset Owners  
@@ -21,7 +21,7 @@ In the renewable energy industry today, operations and maintenance (O&M) remain 
 2. **Costly Manual Inspections**: Routine manual checks across sprawling solar fields and remote wind farms are slow, expensive, and impractical to run frequently.
 3. **Inefficient Technician Dispatch**: Field teams often travel long distances to inspect healthy assets while unnoticed micro-faults quietly worsen elsewhere.
 
-$$\text{Unnoticed Fault} \longrightarrow \text{Equipment Failure} \longrightarrow \text{Generation Loss (kWh)} \longrightarrow \text{Direct Revenue Loss (\rupee)}$$
+$$\text{Unnoticed Fault} \longrightarrow \text{Equipment Failure} \longrightarrow \text{Generation Loss (kWh)} \longrightarrow \text{Direct Revenue Loss}$$
 
 ---
 
@@ -33,19 +33,19 @@ Rather than flooding operators with raw numbers or false alerts, the system prov
 * **Root-Cause Diagnostics**: Distinguishes between solar panel soiling hotspots and wind turbine bearing friction.
 * **Automated Health Scoring**: Tags assets instantly as **NORMAL** (Green), **WARNING** (Yellow), or **CRITICAL** (Red).
 * **Weather False-Alarm Suppression**: Cross-references ambient weather conditions (e.g., wind gusts) against internal mechanical sensors to eliminate false alarms.
-* **Monetary Loss Quantification**: Translates physical efficiency degradation directly into daily energy loss ($\text{kWh}$) and financial revenue risk ($\text{\rupee}$).
-* **AI-Generated Technician Work Orders**: Leverages the **Google Gemini API** to output 2-sentence root-cause diagnostics and step-by-step repair checklists.
+* **Monetary Loss Quantification**: Translates physical efficiency degradation directly into daily energy loss ($\text{kWh}$) and financial revenue risk.
+* **AI-Generated Technician Work Orders**: Leverages the **AI LLM** to output 2-sentence root-cause diagnostics and step-by-step repair checklists.
 
 ---
 
 ## ✨ Key Features
 
-- 🌐 **Free Public Web Access**: Hosted 24/7 on **Streamlit Community Cloud** with zero installation required for judges and evaluators.
-- 📊 **Real-Time Telemetry Stream**: Monitors solar panel temperature (°C), soiling rate (%), voltage (V), current (A), and wind turbine vibration (Hz), gearbox temperature (°C), oil pressure (bar), and power output (kW).
+- 🌐 **Free Public Web Access**: Hosted 24/7 on **Streamlit Community Cloud** with zero installation required.
+- 📊 **Simulated Real-Time Telemetry Stream**: Monitors solar panel temperature (°C), soiling rate (%), voltage (V), current (A), and wind turbine vibration (Hz), gearbox temperature (°C), oil pressure (bar), and power output (kW).
 - 🟢 **Automated Fleet Health Scoring**: Classifies asset health into clear **NORMAL**, **WARNING**, and **CRITICAL** operational states.
 - 🌪️ **Weather False-Alarm Filter**: Suppresses false alerts when high turbine vibration is caused purely by temporary wind gusts rather than internal gearbox failure.
-- 🤖 **Gemini AI Root-Cause Analysis**: Uses Generative AI to deliver instant, plain-language failure explanations and technician repair guides.
-- 💰 **Financial Impact Estimator**: Calculates daily lost generation ($\text{kWh}$) and revenue risk ($\text{\rupee}$) based on asset capacity and electricity tariffs.
+- 🤖 **AI Root-Cause Analysis**: Uses Generative AI to deliver instant, plain-language failure explanations and technician repair guides.
+- 💰 **Financial Impact Estimator**: Calculates daily lost generation ($\text{kWh}$) and revenue risk (₹) based on asset capacity and electricity tariffs.
 - 🎛️ **Interactive Live Fault Inserter**: Features sidebar controls that allow judges to inject synthetic faults live during demonstrations.
 
 ---
@@ -88,7 +88,7 @@ To securely provide the Gemini API key without exposing it in public GitHub code
 1. Before clicking Deploy, click **"Advanced settings..."** (or open **Settings ⚙️ -> Secrets** on your deployed app dashboard).
 2. Paste your Google Gemini API key in **TOML format**:
    ```toml
-   GEMINI_API_KEY = "your_actual_google_gemini_api_key_here"
+   GEMINI_API_KEY = "-------------------------"
    ```
 3. Click **Save** and **Deploy!**
 
@@ -140,20 +140,20 @@ To securely provide the Gemini API key without exposing it in public GitHub code
 
 ---
 
-## 💻 Local Development Setup (Optional)
+## 💻 Local Development Setup:
 
 If you wish to clone and run the app locally on your computer:
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-username/aerosolar.git
-cd aerosolar
+git clone ----------------------------
+cd --------------------
 
 # 2. Install required packages
 pip install -r requirements.txt
 
 # 3. Create a .env file with your API key
-echo "GEMINI_API_KEY=your_actual_api_key_here" > .env
+echo "GEMINI_API_KEY= ---------------------" > .env
 
 # 4. Run the Streamlit app
 streamlit run app.py
