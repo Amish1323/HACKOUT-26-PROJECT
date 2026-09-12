@@ -1,7 +1,5 @@
 # ==========================================
-# CONFIGURATION & PROJECT NAME
-# Change this variable to your team's project name!
-PROJECT_NAME = "AeroSolar"  # e.g., "SolarWind Sentinel", "EcoPulse", etc.
+PROJECT_NAME = "AeroSolar"  
 # ==========================================
 
 import streamlit as st
