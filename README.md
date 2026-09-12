@@ -1,11 +1,11 @@
-# ⚡AI Predictive Maintenance & Fleet Intelligence
+# ⚡ AeroSolar: AI Predictive Maintenance & Fleet Intelligence
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io)
 [![Python 3.12](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![Google Gemini API](https://img.shields.io/badge/AI-Google%20Gemini%20API-4285F4?logo=google&logoColor=white)](https://ai.google.dev/)
 [![HackOut'26](https://img.shields.io/badge/Hackathon-HackOut'26-orange)](#)
 
-> **Live Web App:** -------------------------- *(Deployed on Streamlit Community Cloud)*  
+> **Live Web App:** [https://aerosolar.streamlit.app](https://share.streamlit.io) *(Deployed on Streamlit Community Cloud)*  
 > **HackOut'26 Theme:** Renewable Energy Intelligence  
 > **Problem Statement:** Predictive Maintenance for Solar & Wind Assets  
 > **Target Users:** Solar/Wind Farm Operators, Field Technicians, Asset Owners  
@@ -21,13 +21,13 @@ In the renewable energy industry today, operations and maintenance (O&M) remain 
 2. **Costly Manual Inspections**: Routine manual checks across sprawling solar fields and remote wind farms are slow, expensive, and impractical to run frequently.
 3. **Inefficient Technician Dispatch**: Field teams often travel long distances to inspect healthy assets while unnoticed micro-faults quietly worsen elsewhere.
 
-$$\text{Unnoticed Fault} \longrightarrow \text{Equipment Failure} \longrightarrow \text{Generation Loss (kWh)} \longrightarrow \text{Direct Revenue Loss}$$
+$$\text{Unnoticed Fault} \longrightarrow \text{Equipment Failure} \longrightarrow \text{Generation Loss (kWh)} \longrightarrow \text{Direct Revenue Loss (\rupee)}$$
 
 ---
 
 ## 💡 Proposed Solution
 
-**AeroSolar Sentinel** is a cloud-native, AI-powered predictive maintenance and fleet intelligence platform for solar arrays and wind turbines. It continuously monitors simulated IoT telemetry streams to catch structural and electrical anomalies before equipment failure happens.
+**AeroSolar** is a cloud-native, AI-powered predictive maintenance and fleet intelligence platform for solar arrays and wind turbines. It continuously monitors simulated IoT telemetry streams to catch structural and electrical anomalies before equipment failure happens.
 
 Rather than flooding operators with raw numbers or false alerts, the system provides:
 * **Root-Cause Diagnostics**: Distinguishes between solar panel soiling hotspots and wind turbine bearing friction.
@@ -57,7 +57,7 @@ This repository is optimized for **1-click continuous deployment** on **Streamli
 ### **Step 1: Repository Structure Check**
 Ensure your GitHub repository has the following files in the root folder:
 ```text
-aerosolar-sentinel/
+aerosolar/
 ├── app.py                     # Main Streamlit application
 ├── requirements.txt           # Package dependencies
 ├── README.md                  # Project documentation
@@ -80,8 +80,8 @@ python-dotenv
 ### **Step 3: Deploying via Streamlit Cloud Portal**
 1. Sign in to **[share.streamlit.io](https://share.streamlit.io)** using your **GitHub account**.
 2. Click the **"New app"** button.
-3. Select your repository (`username/aerosolar-sentinel`), branch (`main`), and set the main file path to **`app.py`**.
-4. Choose a custom public URL (e.g., `aerosolar-sentinel.streamlit.app`).
+3. Select your repository (`username/aerosolar`), branch (`main`), and set the main file path to **`app.py`**.
+4. Choose a custom public URL (e.g., `aerosolar.streamlit.app`).
 
 ### **Step 4: Managing Secrets (Google Gemini API Key)**
 To securely provide the Gemini API key without exposing it in public GitHub code:
@@ -146,8 +146,8 @@ If you wish to clone and run the app locally on your computer:
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-username/aerosolar-sentinel.git
-cd aerosolar-sentinel
+git clone https://github.com/your-username/aerosolar.git
+cd aerosolar
 
 # 2. Install required packages
 pip install -r requirements.txt
@@ -167,4 +167,5 @@ Open `http://localhost:8501` in your web browser.
 
 - **Hackathon:** HackOut'26
 - **Theme:** Renewable Energy Intelligence
+- **Project Name:** AeroSolar
 - **Target Audience:** Solar & Wind Farm Operators, Asset Owners, Field Technicians
